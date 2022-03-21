@@ -4,6 +4,12 @@ public class FirePokemon extends Pokemon{
         super(name, level, hp, food, sound);
     }
 
+    @Override
+    public void eats(){
+        System.out.println(super.getName() + " eats fire-" + super.getFood());
+    }
+
+
     public void inferno(){
         System.out.println();
     }

@@ -14,9 +14,7 @@ public abstract class Pokemon {
         this.sound = sound;
     }
 
-    public void eats(){
-        System.out.println(name + " eats " + food);
-    }
+    public abstract void eats();
 
     public void speaks() {
         System.out.println(sound);

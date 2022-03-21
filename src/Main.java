@@ -11,7 +11,7 @@ public class Main {
         pikachu.electroBall();
         pikachu.voltTackle();
 
-        GrassPokemon venusaur = new GrassPokemon("Venusaur", 17, 250 , "electric flakes", "Veeeenuuusssaur");
+        GrassPokemon venusaur = new GrassPokemon("Venusaur", 17, 250 , "pokeflakes", "Veeeenuuusssaur");
         venusaur.speaks();
         venusaur.leafStorm();
     }
