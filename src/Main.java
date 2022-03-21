@@ -10,6 +10,10 @@ public class Main {
         pikachu.thunderPunch();
         pikachu.electroBall();
         pikachu.voltTackle();
+
+        GrassPokemon venusaur = new GrassPokemon("Venusaur", 17, 250 , "electric flakes", "Veeeenuuusssaur");
+        venusaur.speaks();
+        venusaur.leafStorm();
     }
 
 }

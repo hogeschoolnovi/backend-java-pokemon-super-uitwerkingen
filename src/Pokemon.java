@@ -1,13 +1,10 @@
-public class Pokemon {
+public abstract class Pokemon {
 
     private String name;
     private int level;
     private int hp;
     private String food;
     private String sound;
-
-    public Pokemon() {
-    }
 
     public Pokemon(String name, int level, int hp, String food, String sound) {
         this.name = name;
