@@ -4,6 +4,11 @@ public class GrassPokemon extends Pokemon{
         super(name, level, hp, food, sound);
     }
 
+    @Override
+    public void eats() {
+        System.out.println(super.getName() + " eats grass-" + super.getFood());
+    }
+
     public void leafStorm(){
         System.out.println();
     }

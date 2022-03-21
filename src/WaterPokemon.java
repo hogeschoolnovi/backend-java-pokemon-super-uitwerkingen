@@ -4,6 +4,11 @@ public class WaterPokemon extends Pokemon{
         super(name, level, hp, food, sound);
     }
 
+    @Override
+    public void eats() {
+        System.out.println(super.getName() + " eats water-" + super.getFood());
+    }
+
     public void surf(){
         System.out.println();
     }
