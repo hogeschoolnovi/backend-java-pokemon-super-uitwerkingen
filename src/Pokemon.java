@@ -1,28 +1,24 @@
-public class Pokemon {
-
+public abstract class Pokemon {
     private String name;
     private int level;
     private int hp;
-    private String food;
-    private String sound;
+    private String type;
 
-    public Pokemon() {
-    }
-
-    public Pokemon(String name, int level, int hp, String food, String sound) {
+    public Pokemon(String name, int level, int hp) {
         this.name = name;
         this.level = level;
         this.hp = hp;
-        this.food = food;
-        this.sound = sound;
     }
 
-    public void eats(){
-        System.out.println(name + " eats " + food);
+    public abstract void eats();
+
+    public void tackle(){
+        System.out.println(name + " performs tackle");
     }
 
-    public void speaks() {
-        System.out.println(sound);
+    public void levelUp(){
+        this.level++;
+        System.out.println("Congratulations, " + name + " has now reached level " + level);
     }
 
     public String getName() {
@@ -41,27 +37,12 @@ public class Pokemon {
         this.level = level;
     }
 
-    public int getHp() {
-        return hp;
+
+    public String getType() {
+        return type;
     }
 
-    public void setHp(int hp) {
-        this.hp = hp;
-    }
-
-    public String getFood() {
-        return food;
-    }
-
-    public void setFood(String food) {
-        this.food = food;
-    }
-
-    public String getSound() {
-        return sound;
-    }
-
-    public void setSound(String sound) {
-        this.sound = sound;
+    public void setType(String type) {
+        this.type = type;
     }
 }
