@@ -17,7 +17,7 @@ Ondanks dat deze natuurlijk een type hebben zijn het `Pokemons`, en hebben deze 
 In de uitgewerkte opdracht moeten minimaal zitten:
 
 - 1 `super klasse` welke minimaal 2 `private variabeles`, `constructors`, 2 `methodes` en `getters & setters`
-- 4 `sub klassen` welke minimaal 4 `private variabeles`, `constructors`, 2 `methodes`, 1 `Override methode` en `getters & setters`
+- 4 `sub klassen` welke minimaal 2 `private variabeles`, `constructors`, 2 `methodes`, 1 `Override methode` en `getters & setters`
 - 1 `main klasse` met 1 `main methode`
 - In de `main methode` worden 4 verschillende `Pokemons` geïnstantieerd en gedeclareerd en wordt voor iedere `Pokemon` methodes aangeroepen
 
